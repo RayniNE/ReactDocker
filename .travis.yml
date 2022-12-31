@@ -6,4 +6,4 @@ before_install:
   - docker build -t xraynii/reactdocker -f Dockerfile.dev .
 
 script:
-  - docker run xraynii/reactdocker yarn test coverage
+  - docker run xraynii/reactdocker yarn coverage
